@@ -12,7 +12,7 @@ function App() {
 
       <BrowserRouter basename="/CRUD-Application">
         <Routes>
-          <Route exact path="/CRUD-Application" element={<Create/>}></Route>
+          <Route exact path="/CRUD-Application/" element={<Create/>}></Route>
           <Route path="/read" exact  element={<Read/>}></Route>
           <Route path="/update" element={<Update />}></Route>
         </Routes>
