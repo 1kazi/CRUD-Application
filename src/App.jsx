@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="container">
 
-      <BrowserRouter>
+      <BrowserRouter >
         <Routes>
           <Route exact path="/CRUD-Application/" element={<Create/>}></Route>
           <Route path="/read" exact  element={<Read/>}></Route>
